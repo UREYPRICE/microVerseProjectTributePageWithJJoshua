@@ -1,0 +1,80 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="mainDiv"> 
+<h1 id="title"> Josh & Ahmed Survey Form</h1>
+<p id="description">
+  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+</p>
+
+<form id="survey-form" method="post" action="#" id="survey-form">
+<div class="formDiv"> 
+  
+  <label for="name" id="name-label">Name: </label><input class="inputs" id="name" type="text" placeholder="type name " required />
+
+</div>
+  
+<div class="formDiv">
+  
+   <label for="email" id="email-label">Email: </label>
+  <input class="inputs" id="email" type="email" required placeholder="your email address "/> 
+  </div>
+ 
+
+<div class="formDiv">
+  
+    <label for="number" id="number-label">Age: </label>
+  <input class="inputs" id="number" type="number" min="10" max="100" placeholder="your age "/>
+  
+   </div>
+
+
+<div class="formDiv"> 
+<p class= "selectClass">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,</p>
+
+
+
+  
+<select class="inputs" id="dropdown">
+  <option> first </option>
+  <option> second </option>
+  </select>
+</div>
+
+
+<div class="formDiv"> 
+
+<label>What is your gender?</label>
+ <label for="gender"><input class="radio-checkbox" type="radio" name="gender" value="Male"/>Male</label>
+ <label for="gender"><input class="radio-checkbox" type="radio" name="gender" value="Female" />Female</label>
+</div>
+
+
+<div class="formDiv">
+  
+  <label>Which of the following do you prefer?</label>
+ <label for="html"><input class="radio-checkbox" type="checkbox" name="html" id="html" value="HTML"/>I love HTML</label>
+ <label for="css"><input class="radio-checkbox" type="checkbox" name="css" id="css" value="CSS"/>I love CSS</label>
+ <label for="php"><input class="radio-checkbox" type="checkbox" name="php" id="php" value="PHP"/>I love PHP</label>
+  
+   </div>
+
+<div class="formDiv">
+  
+  <label>Any Additional Comments?</label>
+<textarea class="area" id="comments" ></textarea>
+
+<input class="button"type="submit" id="submit" text="Submit" />
+  
+   </div>
+
+
+
+  </form>
+</div>
+  </body>
+
+  </html>
